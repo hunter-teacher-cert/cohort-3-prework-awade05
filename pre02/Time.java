@@ -5,10 +5,10 @@ public static void main(String[]args){
   int sec = 30;
   int timeOfDayInSeconds = 24 * 60 * 60;
   int timesinceMidnightInSec = hour * 3600 + minute * 60 + sec;
- int hournow = 21;
- int minutenow = 59;
- int secnow = 0;
- int timeNow = hournow * 3600 + minutenow * 60 + secnow;
+  int hournow = 21;
+  int minutenow = 59;
+  int secnow = 0;
+  int timeNow = hournow * 3600 + minutenow * 60 + secnow;
   int elapsedTime = timeOfDayInSeconds - timeNow;
 
 System.out.print("Number of seconds since midnight: ");
