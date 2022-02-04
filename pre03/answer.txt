@@ -1,0 +1,8 @@
+1. No, I wug. You wugga wug. I wug. (The main first prints the out put No, I then it calls zoop. zoop calls baffle first. baffle prints the word wug then calls ping() which prints a period. zoop then prints You wuggs and then calls baffle again which prints wug and calls ping which prints the period again. We then go back to main which prints I and then calls baffle again which prints wug and calls print which prints the period.)
+
+2. main 
+   zoop
+   baffle
+   ping
+
+   If you invoke baffle at the end of ping then it will keep going back and forth between baffle and ping looping. 
