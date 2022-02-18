@@ -1,0 +1,29 @@
+1. if (x > 0 && x < 10) {
+   System.out.println("positive single digit number.");
+   }
+}
+
+2. main
+   zoop - just for - 5
+   ping - not - "any " + strangStrung + "more "
+       "any not more"
+   clink -  4
+    "   It's "
+   zoop - "breakfast " !
+
+ "just for "
+ "any not more"
+ "It's breakfast"
+ "!"
+
+
+3. main   
+nLines 4
+nLines 3
+nLines 2
+nLines 1
+nLines 0
+
+
+
+
