@@ -1,0 +1,43 @@
+//#1
+//This method takes in array and multiplies everything by a. 
+
+public static int banana(int[] a) {
+//starts at 1 but stores to calculate   
+int kiwi = 1;
+//index used to traverse a
+    int i = 0;
+    while (i < a.length) {
+        kiwi = kiwi * a[i];
+        i++;
+    }
+    return kiwi;
+}
+
+
+
+#2 
+//This method takes in an array and an interger. It finds the index 
+//of grape in a and returns the index of grape, if not it returns -1 
+
+public static int grapefruit(int[] a, int grape) {
+    for (int i = 0; i < a.length; i++) {
+        if (a[i] == grape) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+#3
+//This method returns an arry and interger. 
+//It counts the total number times apple appears everytime it loops.
+
+public static int pineapple(int[] a, int apple) {
+    int pear = 0;
+    for (int pine: a) {
+        if (pine == apple) {
+            pear++;
+        }
+    }
+    return pear;
+}
